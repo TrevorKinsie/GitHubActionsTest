@@ -10,7 +10,7 @@ jobs:
         with:
           repository: octocat/Hello-World
           path: Hello-World
-      - name: change directory
-        run: cd Hello-World
-      - name: ls
-        run: ls
+      - name: change directory and ls
+        run: |
+          cd Hello-World
+          ls
